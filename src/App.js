@@ -1,9 +1,6 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import tw from "tailwind-styled-components";
-import Modal from "./modal";
-import { useRecoilState, atom } from "recoil";
-import { modalShown } from "./atoms";
 
 const Container = tw.div`
     bg-white text-left w-[400px] h-[180px] mx-auto p-5 absolute top-[280px] inset-x-0
