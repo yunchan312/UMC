@@ -12,6 +12,7 @@
     "react-scripts": "5.0.1",
     "recoil": "^0.7.7",
     "styled-component": "^2.8.0",
+    "styled-components": "^6.0.8",
     "twin.macro": "^3.4.0",
     "web-vitals": "^2.1.4"
   },
