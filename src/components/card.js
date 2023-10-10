@@ -47,11 +47,11 @@ export default function MovieCard({
   title,
 }) {
   const [isOverlay, setIsOverlay] = useState(false);
-  const handleCardClick = () => {
+  const whileHover = () => {
     setIsOverlay((prev) => !prev);
   };
   return (
-    <Card onClick={handleCardClick}>
+    <Card onMouseEnter={whileHover} onMouseLeave={whileHover}>
       {isOverlay ? (
         <Overlay>
           ⭐{`${vote_average}`} <br />
